@@ -51,13 +51,17 @@ table {
     font-weight: 500;
     font-style: normal;
   }
-
-
-
-.header{
+body{
     display: flex;
+    flex-flow: row wrap;
+
+}
+
+header{
+    display: flex;
+    
     height: 70px;
-    width: 100%;
+    width: 200%;
 
     color: white;
     background: #2C2F33;
@@ -86,20 +90,12 @@ table {
 
 .left_box{
     display: flex;
-    /*
-    width: 950px;
-    height: 600px;
-    */
     margin: auto;
     background: #23272A;    
 }
 
 .info_left{
     position: relative;
-    /*
-    left: 30%;
-    top: 40%;
-    */
     margin: auto;
     text-align: center;
 
@@ -141,30 +137,25 @@ table {
 
 .right_box{
     display: flex;
-    /*
-    width: 950px;
-    height: 600px;
-    */
     margin: auto;
     background: #23272A; 
+    flex-wrap: wrap;
 }
 
 .info_right{
     position: relative;
-    /*
-    right: -5%;
-    top: 10%;
-    */
     margin: auto;
     text-align: center;
 }
 
 .my_project{
-    /*display: flex;*/
+    /*display: flex;
     /*Отображение зоны*/
     border: 0px solid gray;
-
+    margin: auto;
     color: white;
+    flex-shrink: 2;
+
 }
 
 .project_text{
@@ -183,11 +174,12 @@ table {
     height: 500px;
     justify-content: space-around;
 
+    flex-wrap: wrap;
 }
 
 
 .block_test_1{
-    /*display: flex;*/
+    display: flex;
     border: 0px solid green;
     width: 235px;
     height: 260px;
@@ -195,12 +187,15 @@ table {
     /*overflow: auto;*/
     background-color: #474C53;
     border-radius: 15px;
-    
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 .block_test_2{
-    /*display: flex;*/
+    display: flex;
     border: 0px solid green;
     
     width: 235px;
@@ -209,11 +204,15 @@ table {
     overflow: auto;
     background-color: #474C53;
     border-radius: 15px;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 .block_test_3{
-    /*display: flex;*/
+    display: flex;
     border: 0px solid green;
     
     width: 235px;
@@ -222,6 +221,10 @@ table {
     overflow: auto;
     background-color: #474C53;
     border-radius: 15px;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
