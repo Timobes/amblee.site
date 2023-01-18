@@ -1,6 +1,34 @@
 @media (max-width: 800px) {
+    
     .only_block {
-        width: 400px;
+        width: 100%;
         height: 1000px;
     }
+    
+
+    .nickname p{
+        font-size: 33px;
+    }
+
+    header p{
+        font-size: 25px;
+
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 1920px;
+    }
+
+    header{
+        width: 100%;
+    }
 }
+/*
+@media(max-width: 980px){
+    .wrapper{
+        width: 980px; 
+        overflow: show; 
+    }
+}
+*/
