@@ -61,9 +61,10 @@ header{
 
     width: 100%;
     height: 200%;
-
+    
     color: white;
-    background: #2C2F33;
+    background: #171717;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
 
     flex-grow: 1;
     flex-shrink: 0;
@@ -90,26 +91,38 @@ header p{
     margin-left: 60px;
 }
 
+.box_all_background{
+    
+    width: 100%;
+    
+    /*display: flex;*/
+
+    z-index: 2;
+    
+    background: #06090E;
+}
+
 .wrapper {
     display: flex;
     flex-flow: row wrap;
 
     width: 100%;
-    height: 840px;
-    
-    background-image: url('/img/kosmos-zvezdy-prostranstvo-50791.jpg');
+    height: 833px;
+
+    z-index: 1;
+
+    background-image: url('/img/kosmos.jpg');
+
     flex-grow: 1;
     flex-shrink: 0;
-
-
 }
+
 
 
 .left_box{
     display: flex;
     margin: auto;
-    background: #06090E;
-    ;    
+    
 }
 
 .info_left{
@@ -140,7 +153,7 @@ header p{
 }
 
 .nickname blockquote {
-    color:#6E7885;
+    color: #E5E5E5;
     font-family: 'Fedra Sans Pro';
     font-size: 37px;
     font-weight: 500;
@@ -152,8 +165,6 @@ header p{
 .right_box{
     display: flex;
     margin: auto;
-    background: #06090E;
-    ; 
     flex-wrap: wrap;
 }
 
@@ -197,12 +208,14 @@ header p{
     display: flex;
     border: 0px solid green;
     width: 235px;
-    height: 260px;
+    height: 330px;
     color: white;
-    /*overflow: auto;*/
-    background-color: #474C53;
-    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
 
+    border-radius: 15px;
+    background: rgba(21, 42, 61, 0.3);
+    
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -214,11 +227,14 @@ header p{
     border: 0px solid green;
     
     width: 235px;
-    height: 260px;
+    height: 330px;
     color: white;
-    overflow: auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+
     background-color: #474C53;
     border-radius: 15px;
+    background: rgba(21, 42, 61, 0.3);
 
     align-items: center;
     flex-wrap: wrap;
@@ -231,17 +247,19 @@ header p{
     border: 0px solid green;
     
     width: 235px;
-    height: 260px;
+    height: 330px;
     color: white;
-    overflow: auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+
     background-color: #474C53;
     border-radius: 15px;
+    background: rgba(21, 42, 61, 0.3);
 
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 
 .text_1{
     font-family: 'Fedra Sans Pro';
@@ -260,5 +278,16 @@ header p{
     line-height: 26px;
     letter-spacing: 0em;
     text-align: center;
+    margin: 5px;
 }
 
+footer{
+    position: sticky;
+    width: 100%;
+    background: #171717;
+}
+
+footer p{
+    left: 30%;
+    color: #444444;
+}

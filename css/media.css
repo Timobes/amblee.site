@@ -32,3 +32,54 @@
     }
 
 }
+
+@media (min-height: 1067px) {
+
+    .wrapper{
+        height: 1140px;
+    }
+    
+}
+
+@media (max-width: 1245px) {
+    .wrapper{
+        height: 880px;
+    } 
+}
+
+@media (max-width: 801px) {
+    .wrapper{
+        height: 1350px;
+    } 
+}
+
+@media (max-width: 712px) {
+    .only_block {
+        width: 99%;
+        height: 900px;
+    }
+}
+
+@media (max-width: 474px) {
+    .only_block {
+        height: 1100px;
+    }
+
+    .wrapper{
+        height: 1480px;
+    } 
+}
+
+@media (max-width: 306px) {
+    .project_text{
+        font-size: 35px;
+    }
+
+    .nickname blockquote{
+        font-size: 25px;
+    }
+
+    .only_block {
+        height: 1080px;
+    }
+}
