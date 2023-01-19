@@ -111,7 +111,7 @@ header p{
 
     z-index: 1;
 
-    background-image: url('/img/kosmos.jpg');
+    background-image: url('../img/kosmos.jpg');
 
     flex-grow: 1;
     flex-shrink: 0;
