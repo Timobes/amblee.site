@@ -4,7 +4,18 @@
         width: 100%;
         height: 1000px;
     }
+    .nickname blockquote{
+        font-size: 21px;
+    }
     
+    .description_1{
+        font-size: 17px;
+    }
+
+    .avatar_img{
+        width: 193px;
+        height: 193px;
+    }
 
     .nickname p{
         font-size: 33px;
@@ -12,7 +23,7 @@
 
     header p{
         font-size: 25px;
-
+        margin-left: 0px;
     }
 
     .wrapper {
@@ -44,29 +55,39 @@
 @media (max-width: 1245px) {
     .wrapper{
         height: 880px;
-    } 
+    }
+
+    .left_box{
+        
+    }
 }
 
 @media (max-width: 801px) {
     .wrapper{
-        height: 1350px;
+        height: 1430px;
     } 
 }
 
 @media (max-width: 712px) {
     .only_block {
         width: 99%;
-        height: 900px;
+        height: 1080px;
+    }
+    
+    header{
+        align-items: center;
+        justify-content: center;
     }
 }
 
 @media (max-width: 474px) {
+
     .only_block {
-        height: 1100px;
+        height: 1290px;
     }
 
     .wrapper{
-        height: 1480px;
+        height: 2000px;
     } 
 }
 
@@ -83,3 +104,46 @@
         height: 1080px;
     }
 }
+
+@media (max-width: 300px) {
+    .avatar_img{
+        width: 193px;
+        height: 193px;
+    }
+}
+
+@media (min-width: 2500px) {
+    .wrapper{
+        height: 1150px;
+        /* margin-left: 200px; */
+    }
+
+    footer p{
+        font-size: 412px;
+    }
+}
+
+@media (min-width: 3800px) {
+    .wrapper{
+        height: 1580px;
+        /* margin-left: 200px; */
+    }
+
+    .left_box{
+        padding-bottom: 500px;
+        margin-left: 800px;
+    }
+
+    .right_box{
+        padding-bottom: 500px;
+        margin-right: 800px;
+    }
+}
+
+@media (min-width: 712px) {
+     html{  
+        overflow-y: hidden; 
+    }
+}
+
+
